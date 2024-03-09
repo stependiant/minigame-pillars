@@ -1,27 +1,21 @@
 package step.learning.commands;
 
-import net.kyori.adventure.text.Component;
 import org.bukkit.*;
 import org.bukkit.block.Block;
-import org.bukkit.boss.BarColor;
-import org.bukkit.boss.BarStyle;
-import org.bukkit.boss.BossBar;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.inventory.ItemStack;
 import org.jetbrains.annotations.NotNull;
-import step.learning.Learning;
+
 
 import java.util.*;
 
 
 public class CommandStart implements CommandExecutor {
-    private double initialBorderDecreaseSpeed = 0.02;
     static World world = Bukkit.getWorld("world");
 
-    private List<Location> list = new ArrayList<>(Arrays.asList(
+    private final List<Location> list = new ArrayList<>(Arrays.asList(
             new Location(world, 0.5, 60, 12.5),
             new Location(world, 12.5, 60, 0.5),
             new Location(world, 0.5, 60, -11.5),
@@ -32,10 +26,11 @@ public class CommandStart implements CommandExecutor {
         if (commandSender instanceof Player) {
             clearMap();
             tpPlayers();
-            Timer timer = Timer.getWaveTimer();
+            Timer timer = Timer.getTimer();
+            timer.clearBossBars();
             timer.stopTimer();
             timer.startTimer();
-            setInitialWorldBorderSize(35);
+            setInitialWorldBorderSize();
         }
         return true;
     }
@@ -51,9 +46,9 @@ public class CommandStart implements CommandExecutor {
             }
         }
     }
-    private void setInitialWorldBorderSize(int size) {
+    private void setInitialWorldBorderSize() {
         WorldBorder worldBorder = world.getWorldBorder();
-        worldBorder.setSize(size);
+        worldBorder.setSize(35);
     }
     private void tpPlayers() {
         List<Player> players = Bukkit.getWorld("world").getPlayers();

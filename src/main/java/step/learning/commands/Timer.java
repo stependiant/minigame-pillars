@@ -11,16 +11,19 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.scheduler.BukkitTask;
 import step.learning.Learning;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 public class Timer {
+    private List<BossBar> bossBars = new ArrayList<>();
     private static Timer Timer;
     BukkitTask task;
     private double currentBorderDecreaseSpeed = 0.002;
     private int seconds;
     public void startTimer() {
-        BossBar bossBar = Bukkit.createBossBar("Next new item", BarColor.PINK, BarStyle.SEGMENTED_20);
+        bossBars.add(Bukkit.createBossBar("Next new item", BarColor.PINK, BarStyle.SEGMENTED_10));
+
 
         task = Bukkit.getScheduler().runTaskTimer(Learning.getLearning(), () -> {
             List<Player> players = Bukkit.getWorld("world").getPlayers();
@@ -28,18 +31,19 @@ public class Timer {
             decreaseWorldBorderSize();
 
             if (seconds >= 15) {
-                bossBar.setProgress(0);
+                bossBars.get(0).setProgress(0);
                 for (Player player : players) {
                     randomItem(player);
+                    player.setFoodLevel(20);
                 }
                 seconds = 0;
             }
 
             double progress = (double) seconds / 15.0;
-            bossBar.setProgress(progress);
+            bossBars.get(0).setProgress(progress);
 
             for (Player player : players) {
-                bossBar.addPlayer(player);
+                bossBars.get(0).addPlayer(player);
             }
             seconds++;
         }, 20, 20);
@@ -68,7 +72,14 @@ public class Timer {
             }
         }
     }
-    public static Timer getWaveTimer() {
+    public void clearBossBars() {
+        for (BossBar bossBar : bossBars) {
+            bossBar.removeAll();
+        }
+        seconds = 0;
+        bossBars.clear();
+    }
+    public static Timer getTimer() {
         if (Timer == null) {
             Timer = new Timer();
         }

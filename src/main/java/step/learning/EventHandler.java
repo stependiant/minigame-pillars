@@ -14,6 +14,9 @@ public class EventHandler implements Listener {
     @org.bukkit.event.EventHandler
     public void onJoin(PlayerJoinEvent event) {
         Player player = event.getPlayer();
+        player.setGameMode(GameMode.ADVENTURE);
+        Location location = new Location(player.getWorld(), 0, 101, 0);
+        player.teleport(location);
         Component text = Component.text("Hello!")
                 .append(Component.newline())
                 .append(Component.text("Welcome in minigame Pillars")

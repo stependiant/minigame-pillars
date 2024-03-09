@@ -1,21 +1,21 @@
-[19:13:48] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:13:49] [ServerMain/INFO]: Loaded 1174 recipes
-[19:13:50] [ServerMain/INFO]: Loaded 1271 advancements
-[19:13:50] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[19:13:50] [Server thread/WARN]: ****************************
-[19:13:50] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
-[19:13:50] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
-[19:13:50] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
-[19:13:50] [Server thread/WARN]: ****************************
-[19:13:50] [Server thread/INFO]: Loading properties
-[19:13:50] [Server thread/INFO]: This server is running Paper version git-Paper-447 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 0052e2d)
-[19:13:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:13:51] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:13:52] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[20:20:47] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:20:49] [ServerMain/INFO]: Loaded 1174 recipes
+[20:20:49] [ServerMain/INFO]: Loaded 1271 advancements
+[20:20:50] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[20:20:50] [Server thread/WARN]: ****************************
+[20:20:50] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[20:20:50] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[20:20:50] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[20:20:50] [Server thread/WARN]: ****************************
+[20:20:50] [Server thread/INFO]: Loading properties
+[20:20:50] [Server thread/INFO]: This server is running Paper version git-Paper-447 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 0052e2d)
+[20:20:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:20:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:20:51] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[19:13:52] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
-[19:13:52] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
+[20:20:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[20:20:52] [Server console handler/ERROR]: [TerminalConsole] Failed to read console input
 java.io.IOException: Неверный дескриптор
 	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
 	at java.io.FileInputStream.read(FileInputStream.java:287) ~[?:?]
@@ -50,315 +50,134 @@ java.io.IOException: Неверный дескриптор
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:183) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[terminalconsoleappender-1.3.0.jar:?]
 		at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102) ~[paper-1.20.4.jar:git-Paper-447]
-[19:13:52] [Server thread/INFO]: Default game type: SURVIVAL
-[19:13:52] [Server thread/INFO]: Generating keypair
-[19:13:52] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:13:52] [Server thread/INFO]: Using default channel type
-[19:13:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[19:13:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[19:13:52] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:13:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:13:52] [Server thread/INFO]: Preparing level "world"
-[19:13:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:13:53] [Server thread/INFO]: Time elapsed: 263 ms
-[19:13:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:13:53] [Server thread/INFO]: Time elapsed: 77 ms
-[19:13:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:13:53] [Server thread/INFO]: Time elapsed: 42 ms
-[19:13:53] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:13:53] [Server thread/INFO]: Running delayed init tasks
-[19:13:53] [Server thread/INFO]: Done (2.678s)! For help, type "help"
-[19:13:53] [Server thread/INFO]: Timings Reset
-[19:13:58] [User Authenticator #0/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:13:58] [Server thread/INFO]: RodinGood joined the game
-[19:13:58] [Server thread/INFO]: RodinGood[/127.0.0.1:51704] logged in with entity id 11 at ([world]-0.14406354609296967, 101.0, 1.1043829043257287)
-[19:19:02] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:19:02] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:19:02] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:19:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:19:02] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:19:03] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:19:03] [Server thread/INFO]: Loaded 1174 recipes
-[19:19:03] [Server thread/INFO]: Loaded 1271 advancements
-[19:19:03] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:19:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:19:03] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:19:03] [Server thread/INFO]: RodinGood: Reload complete.
-[19:19:03] [Server thread/INFO]: Timings Reset
-[19:19:55] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:19:55] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:19:55] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:19:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:19:55] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:19:55] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:19:55] [Server thread/INFO]: Loaded 1174 recipes
-[19:19:55] [Server thread/INFO]: Loaded 1271 advancements
-[19:19:56] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:19:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:19:56] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:19:56] [Server thread/INFO]: RodinGood: Reload complete.
-[19:19:56] [Server thread/INFO]: Timings Reset
-[19:22:12] [Server thread/INFO]: CONSOLE: Please note that this command is not supported and may cause issues when using some plugins.
-[19:22:12] [Server thread/INFO]: CONSOLE: If you encounter any issues please use the /stop command to restart your server.
-[19:22:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:22:12] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:22:12] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:22:12] [Server thread/INFO]: Loaded 1174 recipes
-[19:22:12] [Server thread/INFO]: Loaded 1271 advancements
-[19:22:12] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:22:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:22:12] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:22:12] [Server thread/INFO]: CONSOLE: Reload complete.
-[19:22:12] [Server thread/INFO]: Timings Reset
-[19:22:14] [Server thread/INFO]: RodinGood lost connection: Disconnected
-[19:22:14] [Server thread/INFO]: RodinGood left the game
-[19:22:16] [User Authenticator #1/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:22:16] [Server thread/INFO]: RodinGood joined the game
-[19:22:16] [Server thread/INFO]: RodinGood[/127.0.0.1:52282] logged in with entity id 12 at ([world]0.0, 101.0, 0.0)
-[19:22:39] [Server thread/INFO]: RodinGood issued server command: /start
-[19:24:57] [Server thread/INFO]: RodinGood issued server command: /start
-[19:24:57] [Server thread/WARN]: RodinGood moved too quickly! 12.008033545051822,-0.5,4.392912828032299
-[19:25:30] [Server thread/INFO]: RodinGood fell out of the world
-[19:26:14] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:26:14] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:26:14] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:26:14] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:26:14] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:26:14] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:26:14] [Server thread/INFO]: Loaded 1174 recipes
-[19:26:14] [Server thread/INFO]: Loaded 1271 advancements
-[19:26:14] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:26:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:26:14] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:26:14] [Server thread/INFO]: RodinGood: Reload complete.
-[19:26:14] [Server thread/INFO]: Timings Reset
-[19:26:17] [Server thread/INFO]: RodinGood lost connection: Disconnected
-[19:26:17] [Server thread/INFO]: RodinGood left the game
-[19:26:18] [User Authenticator #2/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:26:18] [Server thread/INFO]: RodinGood joined the game
-[19:26:18] [Server thread/INFO]: RodinGood[/127.0.0.1:52591] logged in with entity id 22 at ([world]0.0, 101.0, 0.0)
-[19:43:10] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:43:10] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:43:10] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:43:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:43:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:43:10] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:43:10] [Server thread/INFO]: Loaded 1174 recipes
-[19:43:10] [Server thread/INFO]: Loaded 1271 advancements
-[19:43:10] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:43:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:43:10] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:43:10] [Server thread/INFO]: RodinGood: Reload complete.
-[19:43:10] [Server thread/INFO]: Timings Reset
-[19:43:12] [Server thread/INFO]: RodinGood issued server command: /start
-[19:43:12] [Server thread/WARN]: RodinGood moved too quickly! 10.776135029626111,-41.0,-0.299686657565868
-[19:43:15] [Server thread/INFO]: RodinGood issued server command: /start
-[19:43:15] [Server thread/WARN]: RodinGood moved too quickly! -12.0,0.0,12.0
-[19:44:00] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:44:00] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:44:00] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:44:00] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:44:00] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:44:00] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:44:00] [Server thread/INFO]: Loaded 1174 recipes
-[19:44:00] [Server thread/INFO]: Loaded 1271 advancements
-[19:44:01] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:44:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:44:01] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:44:01] [Server thread/INFO]: RodinGood: Reload complete.
-[19:44:01] [Server thread/INFO]: Timings Reset
-[19:44:02] [Server thread/INFO]: RodinGood issued server command: /start
-[19:44:02] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'start' in plugin learning v1.0-SNAPSHOT
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-447]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-447]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-447]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at step.learning.commands.Timer.startTimer(Timer.java:25) ~[learning-1.0-SNAPSHOT.jar:?]
-	at step.learning.commands.CommandStart.onCommand(CommandStart.java:32) ~[learning-1.0-SNAPSHOT.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	... 29 more
-[19:44:02] [Server thread/WARN]: RodinGood moved too quickly! 0.0,0.0,-24.0
-[19:44:08] [Server thread/INFO]: RodinGood issued server command: /start
-[19:44:08] [Server thread/ERROR]: null
-org.bukkit.command.CommandException: Unhandled exception executing command 'start' in plugin learning v1.0-SNAPSHOT
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_20_R3.CraftServer.dispatchCommand(CraftServer.java:999) ~[paper-1.20.4.jar:git-Paper-447]
-	at org.bukkit.craftbukkit.v1_20_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64) ~[paper-1.20.4.jar:git-Paper-447]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.2.9.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:32) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.CommandQueueEntry.a(CommandQueueEntry.java:5) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:101) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:434) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:336) ~[?:?]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:323) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:2230) ~[?:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$14(ServerGamePacketListenerImpl.java:2190) ~[?:?]
-	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:59) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:153) ~[?:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[?:?]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1455) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.d(MinecraftServer.java:194) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:126) ~[?:?]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1432) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1355) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:136) ~[?:?]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1333) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1222) ~[paper-1.20.4.jar:git-Paper-447]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-447]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?]
-	at jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?]
-	at jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?]
-	at java.util.Objects.checkIndex(Objects.java:385) ~[?:?]
-	at java.util.ArrayList.get(ArrayList.java:427) ~[?:?]
-	at step.learning.commands.Timer.startTimer(Timer.java:25) ~[learning-1.0-SNAPSHOT.jar:?]
-	at step.learning.commands.CommandStart.onCommand(CommandStart.java:32) ~[learning-1.0-SNAPSHOT.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-api-1.20.4-R0.1-SNAPSHOT.jar:?]
-	... 29 more
-[19:44:08] [Server thread/WARN]: RodinGood moved too quickly! 0.0,0.0,24.0
-[19:48:08] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:48:08] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:48:08] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:48:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:48:08] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:48:08] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:48:08] [Server thread/INFO]: Loaded 1174 recipes
-[19:48:08] [Server thread/INFO]: Loaded 1271 advancements
-[19:48:08] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:48:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:48:08] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:48:08] [Server thread/INFO]: RodinGood: Reload complete.
-[19:48:08] [Server thread/INFO]: Timings Reset
-[19:48:10] [Server thread/INFO]: RodinGood issued server command: /start
-[19:48:10] [Server thread/WARN]: RodinGood moved too quickly! 0.0,0.0,-24.0
-[19:48:13] [Server thread/INFO]: RodinGood issued server command: /start
-[19:48:13] [Server thread/WARN]: RodinGood moved too quickly! -12.0,0.0,12.0
-[19:48:17] [Server thread/INFO]: RodinGood issued server command: /start
-[19:48:33] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:48:33] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:48:33] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:48:33] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:48:33] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:48:33] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:48:33] [Server thread/INFO]: Loaded 1174 recipes
-[19:48:33] [Server thread/INFO]: Loaded 1271 advancements
-[19:48:33] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:48:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:48:33] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:48:33] [Server thread/INFO]: RodinGood: Reload complete.
-[19:48:33] [Server thread/INFO]: Timings Reset
-[19:48:34] [Server thread/INFO]: RodinGood lost connection: Disconnected
-[19:48:34] [Server thread/INFO]: RodinGood left the game
-[19:48:36] [User Authenticator #3/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:48:36] [Server thread/INFO]: RodinGood joined the game
-[19:48:36] [Server thread/INFO]: RodinGood[/127.0.0.1:54216] logged in with entity id 23 at ([world]0.0, 101.0, 0.0)
-[19:48:38] [Server thread/INFO]: RodinGood issued server command: /start
-[19:48:45] [Server thread/INFO]: RodinGood issued server command: /start
-[19:48:45] [Server thread/WARN]: RodinGood moved too quickly! 12.275433865898496,0.0,-11.85976123464383
-[19:49:47] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:49:47] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:49:47] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:49:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:49:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:49:48] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:49:48] [Server thread/INFO]: Loaded 1174 recipes
-[19:49:48] [Server thread/INFO]: Loaded 1271 advancements
-[19:49:48] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:49:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:49:48] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:49:48] [Server thread/INFO]: RodinGood: Reload complete.
-[19:49:48] [Server thread/INFO]: Timings Reset
-[19:49:50] [Server thread/INFO]: RodinGood issued server command: /start
-[19:49:50] [Server thread/WARN]: RodinGood moved too quickly! -24.0,0.0,0.0
-[19:49:53] [Server thread/INFO]: RodinGood issued server command: /start
-[19:49:59] [Server thread/INFO]: RodinGood lost connection: Disconnected
-[19:49:59] [Server thread/INFO]: RodinGood left the game
-[19:50:01] [User Authenticator #4/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:50:01] [Server thread/INFO]: RodinGood joined the game
-[19:50:01] [Server thread/INFO]: RodinGood[/127.0.0.1:54239] logged in with entity id 24 at ([world]0.0, 101.0, 0.0)
-[19:50:05] [Server thread/INFO]: RodinGood issued server command: /reload confirm
-[19:50:05] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
-[19:50:05] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
-[19:50:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:50:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:50:05] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:50:05] [Server thread/INFO]: Loaded 1174 recipes
-[19:50:06] [Server thread/INFO]: Loaded 1271 advancements
-[19:50:06] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
-[19:50:06] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:50:06] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
-[19:50:06] [Server thread/INFO]: RodinGood: Reload complete.
-[19:50:06] [Server thread/INFO]: Timings Reset
-[19:50:08] [Server thread/INFO]: RodinGood lost connection: Disconnected
-[19:50:08] [Server thread/INFO]: RodinGood left the game
-[19:50:09] [User Authenticator #4/INFO]: UUID of player RodinGood is 8e6110a4-190f-43cb-a00c-fde2aa82b0bf
-[19:50:09] [Server thread/INFO]: RodinGood joined the game
-[19:50:09] [Server thread/INFO]: RodinGood[/127.0.0.1:54247] logged in with entity id 25 at ([world]0.0, 101.0, 0.0)
-[19:52:30] [Server thread/INFO]: Stopping the server
-[19:52:30] [Server thread/INFO]: Stopping server
-[19:52:30] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
-[19:52:30] [Server thread/INFO]: Saving players
-[19:52:30] [Server thread/INFO]: RodinGood lost connection: Server closed
-[19:52:30] [Server thread/INFO]: RodinGood left the game
-[19:52:30] [Server thread/INFO]: Saving worlds
-[19:52:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
-[19:52:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[19:52:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[19:52:30] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0,03s
-[19:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[19:52:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[19:52:31] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[19:52:31] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[19:52:31] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[19:52:31] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
-[19:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[19:52:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[19:52:31] [Server thread/INFO]: Flushing Chunk IO
-[19:52:31] [Server thread/INFO]: Closing Thread Pool
-[19:52:31] [Server thread/INFO]: Closing Server
+[20:20:52] [Server thread/INFO]: Default game type: SURVIVAL
+[20:20:52] [Server thread/INFO]: Generating keypair
+[20:20:52] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
+[20:20:52] [Server thread/INFO]: Using default channel type
+[20:20:52] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[20:20:52] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[20:20:52] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
+[20:20:52] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:20:52] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:20:52] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:20:52] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:20:52] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:20:52] [Server thread/INFO]: Preparing level "world"
+[20:20:52] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:20:52] [Server thread/INFO]: Time elapsed: 228 ms
+[20:20:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:20:53] [Server thread/INFO]: Time elapsed: 91 ms
+[20:20:53] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:20:53] [Server thread/INFO]: Time elapsed: 36 ms
+[20:20:53] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
+[20:20:53] [Server thread/INFO]: Running delayed init tasks
+[20:20:53] [Server thread/INFO]: Done (2.714s)! For help, type "help"
+[20:20:53] [Server thread/INFO]: Timings Reset
+[20:21:03] [User Authenticator #0/INFO]: UUID of player kolenka_mafia is 0c27799f-966f-314d-8568-ab98f513764c
+[20:21:03] [Server thread/INFO]: kolenka_mafia joined the game
+[20:21:03] [Server thread/INFO]: kolenka_mafia[/26.150.253.204:11517] logged in with entity id 11 at ([world]0.0, 101.0, 0.0)
+[20:21:07] [User Authenticator #0/INFO]: UUID of player RodinGood is 6a518da4-249f-3a9d-ac9b-2b55b438045a
+[20:21:07] [Server thread/INFO]: RodinGood joined the game
+[20:21:07] [Server thread/INFO]: RodinGood[/127.0.0.1:55714] logged in with entity id 12 at ([world]0.0, 101.0, 0.0)
+[20:21:12] [Async Chat Thread - #1/INFO]: [Not Secure] <RodinGood> хорош
+[20:21:17] [Server thread/INFO]: RodinGood issued server command: /start
+[20:21:17] [Server thread/WARN]: RodinGood moved too quickly! 14.228964209886655,-41.0,0.33516720150815926
+[20:21:25] [Server thread/INFO]: kolenka_mafia fell out of the world
+[20:21:29] [Server thread/INFO]: RodinGood issued server command: /start
+[20:21:35] [Async Chat Thread - #0/INFO]: [Not Secure] <RodinGood> так
+[20:21:37] [Async Chat Thread - #1/INFO]: [Not Secure] <RodinGood> ну все работает
+[20:21:45] [Server thread/INFO]: kolenka_mafia has made the advancement [Suit Up]
+[20:22:09] [Server thread/INFO]: RodinGood fell out of the world
+[20:22:25] [Server thread/INFO]: Made RodinGood a server operator
+[20:22:28] [Server thread/INFO]: RodinGood issued server command: /gamemode creative
+[20:22:28] [Server thread/INFO]: [RodinGood: Set own game mode to Creative Mode]
+[20:22:34] [Server thread/INFO]: RodinGood issued server command: /gamemode survival
+[20:22:34] [Server thread/INFO]: [RodinGood: Set own game mode to Survival Mode]
+[20:22:44] [Async Chat Thread - #2/INFO]: [Not Secure] <RodinGood> ты не сломаешь его
+[20:22:48] [Async Chat Thread - #3/INFO]: [Not Secure] <RodinGood> это бедрок
+[20:23:25] [Server thread/INFO]: RodinGood fell out of the world
+[20:23:29] [Server thread/INFO]: kolenka_mafia lost connection: Disconnected
+[20:23:29] [Server thread/INFO]: kolenka_mafia left the game
+[20:23:30] [Server thread/INFO]: RodinGood issued server command: /gamemode creative
+[20:23:30] [Server thread/INFO]: [RodinGood: Set own game mode to Creative Mode]
+[20:23:31] [Server thread/INFO]: RodinGood lost connection: Disconnected
+[20:23:31] [Server thread/INFO]: RodinGood left the game
+[20:23:37] [User Authenticator #1/INFO]: UUID of player kolenka_mafia is 0c27799f-966f-314d-8568-ab98f513764c
+[20:23:37] [Server thread/INFO]: kolenka_mafia joined the game
+[20:23:37] [Server thread/INFO]: kolenka_mafia[/26.150.253.204:11654] logged in with entity id 16 at ([world]0.0, 101.0, 0.0)
+[20:24:22] [Server thread/INFO]: kolenka_mafia lost connection: Disconnected
+[20:24:22] [Server thread/INFO]: kolenka_mafia left the game
+[20:27:58] [User Authenticator #2/INFO]: UUID of player RodinGood is 6a518da4-249f-3a9d-ac9b-2b55b438045a
+[20:27:58] [Server thread/INFO]: RodinGood joined the game
+[20:27:58] [Server thread/INFO]: RodinGood[/127.0.0.1:55874] logged in with entity id 19 at ([world]0.0, 101.0, 0.0)
+[20:28:03] [Server thread/INFO]: RodinGood issued server command: /reload confirm
+[20:28:03] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
+[20:28:03] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
+[20:28:03] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:28:03] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:28:03] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
+[20:28:04] [Server thread/INFO]: Loaded 1174 recipes
+[20:28:04] [Server thread/INFO]: Loaded 1271 advancements
+[20:28:04] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
+[20:28:04] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:28:04] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
+[20:28:04] [Server thread/INFO]: RodinGood: Reload complete.
+[20:28:04] [Server thread/INFO]: Timings Reset
+[20:28:08] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:08] [Server thread/WARN]: RodinGood moved too quickly! 0.5,-41.0,12.5
+[20:28:11] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:12] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:13] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:13] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:13] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:14] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:14] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:15] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:15] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:17] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:19] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:20] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:22] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:25] [Server thread/INFO]: RodinGood issued server command: /start
+[20:28:42] [Server thread/INFO]: RodinGood issued server command: /reload confirm
+[20:28:42] [Server thread/INFO]: RodinGood: Please note that this command is not supported and may cause issues when using some plugins.
+[20:28:42] [Server thread/INFO]: RodinGood: If you encounter any issues please use the /stop command to restart your server.
+[20:28:42] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:28:42] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:28:42] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
+[20:28:42] [Server thread/INFO]: Loaded 1174 recipes
+[20:28:42] [Server thread/INFO]: Loaded 1271 advancements
+[20:28:42] [Server thread/INFO]: [learning] Loading server plugin learning v1.0-SNAPSHOT
+[20:28:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:28:42] [Server thread/INFO]: [learning] Enabling learning v1.0-SNAPSHOT
+[20:28:42] [Server thread/INFO]: RodinGood: Reload complete.
+[20:28:42] [Server thread/INFO]: Timings Reset
+[20:28:43] [Server thread/INFO]: RodinGood lost connection: Disconnected
+[20:28:43] [Server thread/INFO]: RodinGood left the game
+[20:28:48] [Server thread/INFO]: Stopping the server
+[20:28:48] [Server thread/INFO]: Stopping server
+[20:28:48] [Server thread/INFO]: [learning] Disabling learning v1.0-SNAPSHOT
+[20:28:48] [Server thread/INFO]: Saving players
+[20:28:48] [Server thread/INFO]: Saving worlds
+[20:28:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:28:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[20:28:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[20:28:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[20:28:48] [Server thread/INFO]: [ChunkHolderManager] Saved 1 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
+[20:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:28:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'world_nether' in 0,02s
+[20:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:28:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[20:28:49] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[20:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:28:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:28:49] [Server thread/INFO]: Flushing Chunk IO
+[20:28:49] [Server thread/INFO]: Closing Thread Pool
+[20:28:49] [Server thread/INFO]: Closing Server

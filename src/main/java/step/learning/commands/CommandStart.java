@@ -52,13 +52,15 @@ public class CommandStart implements CommandExecutor {
     }
     private void tpPlayers() {
         List<Player> players = Bukkit.getWorld("world").getPlayers();
-        for (Player player : players) {
-            if (!list.isEmpty()) {
+
+        for (int i = 0; i < players.size(); i++) {
+            Player player = players.get(i);
+
+            if (!list.isEmpty() && i < list.size()) {
                 player.getInventory().clear();
-                Random random = new Random();
-                Location randomSpawnPoint = list.get(random.nextInt(list.size()));
+                Location spawnPoint = list.get(i);
                 player.setGameMode(GameMode.SURVIVAL);
-                player.teleport(randomSpawnPoint);
+                player.teleport(spawnPoint);
             }
         }
     }

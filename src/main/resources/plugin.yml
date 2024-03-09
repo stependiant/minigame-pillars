@@ -1,0 +1,6 @@
+name: learning
+version: '${version}'
+main: step.learning.Learning
+api-version: '1.20'
+commands:
+  start:
